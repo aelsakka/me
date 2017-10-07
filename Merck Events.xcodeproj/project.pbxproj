@@ -1,0 +1,1093 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040777AE1E62F71900D1B2EC /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040777AD1E62F71900D1B2EC /* StringHelper.swift */; };
+		040D78B71E6594D30051167F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D78B61E6594D30051167F /* MenuController.swift */; };
+		0417B3751E6D8C1E00FD3067 /* AttendeesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3741E6D8C1E00FD3067 /* AttendeesController.swift */; };
+		0417B3771E6D8D5000FD3067 /* AttendeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3761E6D8D5000FD3067 /* AttendeeCell.swift */; };
+		0417B3791E6EBD3F00FD3067 /* AttendeeMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3781E6EBD3F00FD3067 /* AttendeeMapper.swift */; };
+		0417B37B1E6ED9FC00FD3067 /* SpeakerMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B37A1E6ED9FC00FD3067 /* SpeakerMapper.swift */; };
+		0417B37D1E6EDD0900FD3067 /* SpeakersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B37C1E6EDD0900FD3067 /* SpeakersController.swift */; };
+		0417B37F1E6EE02800FD3067 /* SpeakerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B37E1E6EE02800FD3067 /* SpeakerCell.swift */; };
+		0417B3811E70010400FD3067 /* AttachmentMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3801E70010400FD3067 /* AttachmentMapper.swift */; };
+		0417B3831E700A9900FD3067 /* AttachmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3821E700A9900FD3067 /* AttachmentCell.swift */; };
+		0417B3851E700B2A00FD3067 /* AttachmentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3841E700B2A00FD3067 /* AttachmentsController.swift */; };
+		0417B3871E7028DC00FD3067 /* AttachmentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3861E7028DC00FD3067 /* AttachmentStore.swift */; };
+		0417B3891E716D5800FD3067 /* DisplayAttachmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3881E716D5800FD3067 /* DisplayAttachmentController.swift */; };
+		0417B38B1E7171D300FD3067 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B38A1E7171D300FD3067 /* ProfileController.swift */; };
+		0417B38E1E71964A00FD3067 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B38D1E71964A00FD3067 /* GoogleDataProvider.swift */; };
+		0417B3901E71966000FD3067 /* MarkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B38F1E71966000FD3067 /* MarkerInfoView.swift */; };
+		0417B3921E7197C200FD3067 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3911E7197C200FD3067 /* LocationViewController.swift */; };
+		0417B3941E719DA100FD3067 /* MapCoords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3931E719DA100FD3067 /* MapCoords.swift */; };
+		0417B3961E77F6FE00FD3067 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3951E77F6FE00FD3067 /* ChatController.swift */; };
+		0417B3981E77F73900FD3067 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3971E77F73900FD3067 /* ChatCell.swift */; };
+		0417B39A1E78048400FD3067 /* ChatStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B3991E78048400FD3067 /* ChatStore.swift */; };
+		0417B39C1E780B0900FD3067 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B39B1E780B0900FD3067 /* Chat.swift */; };
+		0417B39E1E782A8700FD3067 /* ArraysHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B39D1E782A8700FD3067 /* ArraysHelper.swift */; };
+		0422149A1E8BDE9D00D0AC91 /* Agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042214991E8BDE9D00D0AC91 /* Agenda.swift */; };
+		0422149C1E8BE00B00D0AC91 /* AgendaMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422149B1E8BE00B00D0AC91 /* AgendaMapper.swift */; };
+		043401431E5F125000BECDD9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043401421E5F125000BECDD9 /* Constants.swift */; };
+		0434014B1E5F2B5800BECDD9 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434014A1E5F2B5800BECDD9 /* UserStore.swift */; };
+		0434014D1E5F325200BECDD9 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434014C1E5F325200BECDD9 /* SplashController.swift */; };
+		0434014F1E5F34BF00BECDD9 /* EventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434014E1E5F34BF00BECDD9 /* EventsController.swift */; };
+		045C176F1E6334B500D20352 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C176E1E6334B500D20352 /* DBHelper.swift */; };
+		045C17711E642A0400D20352 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C17701E642A0400D20352 /* EventStore.swift */; };
+		045C17731E642A2400D20352 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C17721E642A2400D20352 /* Event.swift */; };
+		045C17751E642AAB00D20352 /* Attendee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C17741E642AAB00D20352 /* Attendee.swift */; };
+		045C17771E642AD300D20352 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C17761E642AD300D20352 /* Speaker.swift */; };
+		045C17791E642B1100D20352 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C17781E642B1100D20352 /* Attachment.swift */; };
+		045C177B1E64392300D20352 /* TransitionsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C177A1E64392300D20352 /* TransitionsHelper.swift */; };
+		045C17811E64422E00D20352 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C17801E64422E00D20352 /* EventCell.swift */; };
+		045C17841E64739C00D20352 /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C17831E64739C00D20352 /* UserMapper.swift */; };
+		045C17861E64779B00D20352 /* EventMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C17851E64779B00D20352 /* EventMapper.swift */; };
+		045C17881E6575B900D20352 /* SideMenuHandlerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C17871E6575B900D20352 /* SideMenuHandlerController.swift */; };
+		045D15C41E7EA76300D9F828 /* GalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D15C31E7EA76300D9F828 /* GalleryController.swift */; };
+		045D15C61E7EC69B00D9F828 /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D15C51E7EC69B00D9F828 /* GalleryCell.swift */; };
+		045D15C81E7ED3B100D9F828 /* GalleryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D15C71E7ED3B100D9F828 /* GalleryStore.swift */; };
+		045D15CA1E7ED45100D9F828 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D15C91E7ED45100D9F828 /* Gallery.swift */; };
+		045D15CC1E7ED62400D9F828 /* GalleryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D15CB1E7ED62400D9F828 /* GalleryMapper.swift */; };
+		045D90431E80015300ECACE1 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D90421E80015300ECACE1 /* PostController.swift */; };
+		045D90451E80071E00ECACE1 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D90441E80071E00ECACE1 /* CommentCell.swift */; };
+		045D90471E801BD100ECACE1 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D90461E801BD100ECACE1 /* Comment.swift */; };
+		045D90491E827C2E00ECACE1 /* QuestionResultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D90481E827C2E00ECACE1 /* QuestionResultMapper.swift */; };
+		045D904C1E84179B00ECACE1 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D904B1E84179B00ECACE1 /* TableViewExtension.swift */; };
+		045DD0621E7952AF00CB884D /* ChatMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD0611E7952AF00CB884D /* ChatMapper.swift */; };
+		045DD0641E79943F00CB884D /* SurveysMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD0631E79943F00CB884D /* SurveysMapper.swift */; };
+		045DD0661E7ADB0800CB884D /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD0651E7ADB0800CB884D /* Survey.swift */; };
+		045DD0681E7ADC3A00CB884D /* SurveyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD0671E7ADC3A00CB884D /* SurveyStore.swift */; };
+		045DD06A1E7ADFD700CB884D /* SurveysController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD0691E7ADFD700CB884D /* SurveysController.swift */; };
+		045DD06C1E7ADFED00CB884D /* SurveyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD06B1E7ADFED00CB884D /* SurveyCell.swift */; };
+		045DD06E1E7AE70D00CB884D /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD06D1E7AE70D00CB884D /* Answer.swift */; };
+		045DD0701E7AE73400CB884D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD06F1E7AE73400CB884D /* Question.swift */; };
+		045DD0721E7AE79200CB884D /* QuestionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD0711E7AE79200CB884D /* QuestionResult.swift */; };
+		045DD0741E7AE83900CB884D /* AnswerMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD0731E7AE83900CB884D /* AnswerMapper.swift */; };
+		045DD0761E7AE88E00CB884D /* QuestionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD0751E7AE88E00CB884D /* QuestionMapper.swift */; };
+		045DD0781E7AECEC00CB884D /* SurveyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DD0771E7AECEC00CB884D /* SurveyDetailsController.swift */; };
+		04665CE41E65B4780046F905 /* ViewsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04665CE31E65B4780046F905 /* ViewsHelper.swift */; };
+		04665CE61E66C52F0046F905 /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04665CE51E66C52F0046F905 /* EventController.swift */; };
+		04665CE91E66DC790046F905 /* Merck.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04665CE81E66D6E60046F905 /* Merck.ttf */; };
+		0498F0D81E62D9D600CC715A /* DataSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498F0D71E62D9D600CC715A /* DataSingleton.swift */; };
+		049D71981EA62EF200B8EDD9 /* AgendaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D71971EA62EF200B8EDD9 /* AgendaController.swift */; };
+		049D719A1EA630A200B8EDD9 /* AgendaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D71991EA630A200B8EDD9 /* AgendaCell.swift */; };
+		04CEFBFE1E5EF4E30017A0E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEFBFD1E5EF4E30017A0E6 /* AppDelegate.swift */; };
+		04CEFC001E5EF4E30017A0E6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEFBFF1E5EF4E30017A0E6 /* LoginController.swift */; };
+		04CEFC031E5EF4E30017A0E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CEFC011E5EF4E30017A0E6 /* Main.storyboard */; };
+		04CEFC061E5EF4E30017A0E6 /* Merck_Events.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04CEFC041E5EF4E30017A0E6 /* Merck_Events.xcdatamodeld */; };
+		04CEFC081E5EF4E30017A0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CEFC071E5EF4E30017A0E6 /* Assets.xcassets */; };
+		04CEFC0B1E5EF4E30017A0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CEFC091E5EF4E30017A0E6 /* LaunchScreen.storyboard */; };
+		04CEFC161E5EF4E30017A0E6 /* Merck_EventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEFC151E5EF4E30017A0E6 /* Merck_EventsTests.swift */; };
+		04CEFC211E5EF4E40017A0E6 /* Merck_EventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEFC201E5EF4E40017A0E6 /* Merck_EventsUITests.swift */; };
+		04CEFC351E5EF6E60017A0E6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEFC341E5EF6E60017A0E6 /* User.swift */; };
+		607F5B972F6FAC829C687F23 /* Pods_Merck_Events.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF03FA31E4E2DAFBE070613 /* Pods_Merck_Events.framework */; };
+		72704190B725BA03ED91FE19 /* Pods_Merck_EventsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6C868A3BAA3BD41BDAF478 /* Pods_Merck_EventsTests.framework */; };
+		B70937830284A1FE5718BC3E /* Pods_Merck_EventsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED913A9932FDCB95C11CD6C4 /* Pods_Merck_EventsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CEFC121E5EF4E30017A0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEFBF21E5EF4E10017A0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CEFBF91E5EF4E20017A0E6;
+			remoteInfo = "Merck Events";
+		};
+		04CEFC1D1E5EF4E30017A0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEFBF21E5EF4E10017A0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CEFBF91E5EF4E20017A0E6;
+			remoteInfo = "Merck Events";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040777AD1E62F71900D1B2EC /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		040D78B61E6594D30051167F /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		0417B3741E6D8C1E00FD3067 /* AttendeesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeesController.swift; sourceTree = "<group>"; };
+		0417B3761E6D8D5000FD3067 /* AttendeeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeeCell.swift; sourceTree = "<group>"; };
+		0417B3781E6EBD3F00FD3067 /* AttendeeMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeeMapper.swift; sourceTree = "<group>"; };
+		0417B37A1E6ED9FC00FD3067 /* SpeakerMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerMapper.swift; sourceTree = "<group>"; };
+		0417B37C1E6EDD0900FD3067 /* SpeakersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakersController.swift; sourceTree = "<group>"; };
+		0417B37E1E6EE02800FD3067 /* SpeakerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerCell.swift; sourceTree = "<group>"; };
+		0417B3801E70010400FD3067 /* AttachmentMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentMapper.swift; sourceTree = "<group>"; };
+		0417B3821E700A9900FD3067 /* AttachmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentCell.swift; sourceTree = "<group>"; };
+		0417B3841E700B2A00FD3067 /* AttachmentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentsController.swift; sourceTree = "<group>"; };
+		0417B3861E7028DC00FD3067 /* AttachmentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentStore.swift; sourceTree = "<group>"; };
+		0417B3881E716D5800FD3067 /* DisplayAttachmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayAttachmentController.swift; sourceTree = "<group>"; };
+		0417B38A1E7171D300FD3067 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		0417B38D1E71964A00FD3067 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		0417B38F1E71966000FD3067 /* MarkerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerInfoView.swift; sourceTree = "<group>"; };
+		0417B3911E7197C200FD3067 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		0417B3931E719DA100FD3067 /* MapCoords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCoords.swift; sourceTree = "<group>"; };
+		0417B3951E77F6FE00FD3067 /* ChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		0417B3971E77F73900FD3067 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		0417B3991E78048400FD3067 /* ChatStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatStore.swift; sourceTree = "<group>"; };
+		0417B39B1E780B0900FD3067 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		0417B39D1E782A8700FD3067 /* ArraysHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraysHelper.swift; sourceTree = "<group>"; };
+		042214991E8BDE9D00D0AC91 /* Agenda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agenda.swift; sourceTree = "<group>"; };
+		0422149B1E8BE00B00D0AC91 /* AgendaMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaMapper.swift; sourceTree = "<group>"; };
+		043401421E5F125000BECDD9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
+		0434014A1E5F2B5800BECDD9 /* UserStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		0434014C1E5F325200BECDD9 /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		0434014E1E5F34BF00BECDD9 /* EventsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsController.swift; sourceTree = "<group>"; };
+		045C176E1E6334B500D20352 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBHelper.swift; path = ../DBHelper.swift; sourceTree = "<group>"; };
+		045C17701E642A0400D20352 /* EventStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		045C17721E642A2400D20352 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		045C17741E642AAB00D20352 /* Attendee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attendee.swift; sourceTree = "<group>"; };
+		045C17761E642AD300D20352 /* Speaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		045C17781E642B1100D20352 /* Attachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
+		045C177A1E64392300D20352 /* TransitionsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionsHelper.swift; sourceTree = "<group>"; };
+		045C17801E64422E00D20352 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		045C17831E64739C00D20352 /* UserMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
+		045C17851E64779B00D20352 /* EventMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMapper.swift; sourceTree = "<group>"; };
+		045C17871E6575B900D20352 /* SideMenuHandlerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuHandlerController.swift; sourceTree = "<group>"; };
+		045D15C31E7EA76300D9F828 /* GalleryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryController.swift; sourceTree = "<group>"; };
+		045D15C51E7EC69B00D9F828 /* GalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		045D15C71E7ED3B100D9F828 /* GalleryStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryStore.swift; sourceTree = "<group>"; };
+		045D15C91E7ED45100D9F828 /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		045D15CB1E7ED62400D9F828 /* GalleryMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryMapper.swift; sourceTree = "<group>"; };
+		045D90421E80015300ECACE1 /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		045D90441E80071E00ECACE1 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		045D90461E801BD100ECACE1 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		045D90481E827C2E00ECACE1 /* QuestionResultMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionResultMapper.swift; sourceTree = "<group>"; };
+		045D904B1E84179B00ECACE1 /* TableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		045DD0611E7952AF00CB884D /* ChatMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMapper.swift; sourceTree = "<group>"; };
+		045DD0631E79943F00CB884D /* SurveysMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveysMapper.swift; sourceTree = "<group>"; };
+		045DD0651E7ADB0800CB884D /* Survey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		045DD0671E7ADC3A00CB884D /* SurveyStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyStore.swift; sourceTree = "<group>"; };
+		045DD0691E7ADFD700CB884D /* SurveysController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveysController.swift; sourceTree = "<group>"; };
+		045DD06B1E7ADFED00CB884D /* SurveyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyCell.swift; sourceTree = "<group>"; };
+		045DD06D1E7AE70D00CB884D /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		045DD06F1E7AE73400CB884D /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		045DD0711E7AE79200CB884D /* QuestionResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionResult.swift; sourceTree = "<group>"; };
+		045DD0731E7AE83900CB884D /* AnswerMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerMapper.swift; sourceTree = "<group>"; };
+		045DD0751E7AE88E00CB884D /* QuestionMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionMapper.swift; sourceTree = "<group>"; };
+		045DD0771E7AECEC00CB884D /* SurveyDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyDetailsController.swift; sourceTree = "<group>"; };
+		04665CE31E65B4780046F905 /* ViewsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsHelper.swift; sourceTree = "<group>"; };
+		04665CE51E66C52F0046F905 /* EventController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventController.swift; sourceTree = "<group>"; };
+		04665CE81E66D6E60046F905 /* Merck.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Merck.ttf; path = ../../../Public/Merck.ttf; sourceTree = "<group>"; };
+		0498F0D71E62D9D600CC715A /* DataSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSingleton.swift; sourceTree = "<group>"; };
+		049D71971EA62EF200B8EDD9 /* AgendaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaController.swift; sourceTree = "<group>"; };
+		049D71991EA630A200B8EDD9 /* AgendaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaCell.swift; sourceTree = "<group>"; };
+		04CEFBFA1E5EF4E30017A0E6 /* Merck Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Merck Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEFBFD1E5EF4E30017A0E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CEFBFF1E5EF4E30017A0E6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		04CEFC021E5EF4E30017A0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CEFC051E5EF4E30017A0E6 /* Merck_Events.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Merck_Events.xcdatamodel; sourceTree = "<group>"; };
+		04CEFC071E5EF4E30017A0E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CEFC0A1E5EF4E30017A0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CEFC0C1E5EF4E30017A0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CEFC111E5EF4E30017A0E6 /* Merck EventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Merck EventsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEFC151E5EF4E30017A0E6 /* Merck_EventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merck_EventsTests.swift; sourceTree = "<group>"; };
+		04CEFC171E5EF4E30017A0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CEFC1C1E5EF4E30017A0E6 /* Merck EventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Merck EventsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEFC201E5EF4E40017A0E6 /* Merck_EventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merck_EventsUITests.swift; sourceTree = "<group>"; };
+		04CEFC221E5EF4E40017A0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CEFC341E5EF6E60017A0E6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3C4C059573F5F94839B087AC /* Pods-Merck EventsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merck EventsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Merck EventsUITests/Pods-Merck EventsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A4BD6A4D59E70D371889B26 /* Pods-Merck Events.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merck Events.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Merck Events/Pods-Merck Events.debug.xcconfig"; sourceTree = "<group>"; };
+		6E6C868A3BAA3BD41BDAF478 /* Pods_Merck_EventsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Merck_EventsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF03FA31E4E2DAFBE070613 /* Pods_Merck_Events.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Merck_Events.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D49231000E5904133811D1 /* Pods-Merck EventsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merck EventsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Merck EventsUITests/Pods-Merck EventsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FEC2EBC23F39CD3331D0946 /* Pods-Merck EventsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merck EventsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Merck EventsTests/Pods-Merck EventsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB6DC29091412E9C458F5976 /* Pods-Merck EventsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merck EventsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Merck EventsTests/Pods-Merck EventsTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB1191B01C44FFCC1645ABA1 /* Pods-Merck Events.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merck Events.release.xcconfig"; path = "Pods/Target Support Files/Pods-Merck Events/Pods-Merck Events.release.xcconfig"; sourceTree = "<group>"; };
+		ED913A9932FDCB95C11CD6C4 /* Pods_Merck_EventsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Merck_EventsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CEFBF71E5EF4E20017A0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607F5B972F6FAC829C687F23 /* Pods_Merck_Events.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEFC0E1E5EF4E30017A0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72704190B725BA03ED91FE19 /* Pods_Merck_EventsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEFC191E5EF4E30017A0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70937830284A1FE5718BC3E /* Pods_Merck_EventsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0417B38C1E71963500FD3067 /* Google Maps */ = {
+			isa = PBXGroup;
+			children = (
+				0417B38D1E71964A00FD3067 /* GoogleDataProvider.swift */,
+				0417B38F1E71966000FD3067 /* MarkerInfoView.swift */,
+			);
+			name = "Google Maps";
+			sourceTree = "<group>";
+		};
+		043401491E5F2B4C00BECDD9 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				0434014A1E5F2B5800BECDD9 /* UserStore.swift */,
+				045C17701E642A0400D20352 /* EventStore.swift */,
+				0417B3861E7028DC00FD3067 /* AttachmentStore.swift */,
+				0417B3991E78048400FD3067 /* ChatStore.swift */,
+				045DD0671E7ADC3A00CB884D /* SurveyStore.swift */,
+				045D15C71E7ED3B100D9F828 /* GalleryStore.swift */,
+			);
+			name = Store;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		045C177D1E64420600D20352 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				045C17801E64422E00D20352 /* EventCell.swift */,
+				0417B3761E6D8D5000FD3067 /* AttendeeCell.swift */,
+				0417B37E1E6EE02800FD3067 /* SpeakerCell.swift */,
+				0417B3821E700A9900FD3067 /* AttachmentCell.swift */,
+				0417B3971E77F73900FD3067 /* ChatCell.swift */,
+				045DD06B1E7ADFED00CB884D /* SurveyCell.swift */,
+				045D15C51E7EC69B00D9F828 /* GalleryCell.swift */,
+				045D90441E80071E00ECACE1 /* CommentCell.swift */,
+				049D71991EA630A200B8EDD9 /* AgendaCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		045C17821E64738A00D20352 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				045C17831E64739C00D20352 /* UserMapper.swift */,
+				045C17851E64779B00D20352 /* EventMapper.swift */,
+				0417B3781E6EBD3F00FD3067 /* AttendeeMapper.swift */,
+				0417B37A1E6ED9FC00FD3067 /* SpeakerMapper.swift */,
+				0417B3801E70010400FD3067 /* AttachmentMapper.swift */,
+				045DD0611E7952AF00CB884D /* ChatMapper.swift */,
+				045DD0631E79943F00CB884D /* SurveysMapper.swift */,
+				045DD0731E7AE83900CB884D /* AnswerMapper.swift */,
+				045DD0751E7AE88E00CB884D /* QuestionMapper.swift */,
+				045D15CB1E7ED62400D9F828 /* GalleryMapper.swift */,
+				045D90481E827C2E00ECACE1 /* QuestionResultMapper.swift */,
+				0422149B1E8BE00B00D0AC91 /* AgendaMapper.swift */,
+			);
+			name = Mappers;
+			sourceTree = "<group>";
+		};
+		045D904A1E84178000ECACE1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				045D904B1E84179B00ECACE1 /* TableViewExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		04665CE71E66D6DE0046F905 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04665CE81E66D6E60046F905 /* Merck.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		04CEFBF11E5EF4E10017A0E6 = {
+			isa = PBXGroup;
+			children = (
+				04CEFBFC1E5EF4E30017A0E6 /* Merck Events */,
+				04CEFC141E5EF4E30017A0E6 /* Merck EventsTests */,
+				04CEFC1F1E5EF4E40017A0E6 /* Merck EventsUITests */,
+				04CEFBFB1E5EF4E30017A0E6 /* Products */,
+				245AB2B2046B8EC780FC1409 /* Pods */,
+				E5C2C8D049196B5634BCA340 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04CEFBFB1E5EF4E30017A0E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CEFBFA1E5EF4E30017A0E6 /* Merck Events.app */,
+				04CEFC111E5EF4E30017A0E6 /* Merck EventsTests.xctest */,
+				04CEFC1C1E5EF4E30017A0E6 /* Merck EventsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CEFBFC1E5EF4E30017A0E6 /* Merck Events */ = {
+			isa = PBXGroup;
+			children = (
+				045D904A1E84178000ECACE1 /* Extensions */,
+				0417B38C1E71963500FD3067 /* Google Maps */,
+				04665CE71E66D6DE0046F905 /* Fonts */,
+				045C17821E64738A00D20352 /* Mappers */,
+				045C177D1E64420600D20352 /* Cells */,
+				043401491E5F2B4C00BECDD9 /* Store */,
+				04CEFC331E5EF6790017A0E6 /* Helpers */,
+				04CEFC301E5EF65B0017A0E6 /* Controllers */,
+				04CEFC2E1E5EF6460017A0E6 /* Models */,
+				04CEFBFD1E5EF4E30017A0E6 /* AppDelegate.swift */,
+				043401421E5F125000BECDD9 /* Constants.swift */,
+				045C17871E6575B900D20352 /* SideMenuHandlerController.swift */,
+				04CEFC011E5EF4E30017A0E6 /* Main.storyboard */,
+				04CEFC071E5EF4E30017A0E6 /* Assets.xcassets */,
+				04CEFC091E5EF4E30017A0E6 /* LaunchScreen.storyboard */,
+				04CEFC0C1E5EF4E30017A0E6 /* Info.plist */,
+				04CEFC041E5EF4E30017A0E6 /* Merck_Events.xcdatamodeld */,
+			);
+			path = "Merck Events";
+			sourceTree = "<group>";
+		};
+		04CEFC141E5EF4E30017A0E6 /* Merck EventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CEFC151E5EF4E30017A0E6 /* Merck_EventsTests.swift */,
+				04CEFC171E5EF4E30017A0E6 /* Info.plist */,
+			);
+			path = "Merck EventsTests";
+			sourceTree = "<group>";
+		};
+		04CEFC1F1E5EF4E40017A0E6 /* Merck EventsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CEFC201E5EF4E40017A0E6 /* Merck_EventsUITests.swift */,
+				04CEFC221E5EF4E40017A0E6 /* Info.plist */,
+			);
+			path = "Merck EventsUITests";
+			sourceTree = "<group>";
+		};
+		04CEFC2E1E5EF6460017A0E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04CEFC341E5EF6E60017A0E6 /* User.swift */,
+				045C17721E642A2400D20352 /* Event.swift */,
+				045C17741E642AAB00D20352 /* Attendee.swift */,
+				045C17761E642AD300D20352 /* Speaker.swift */,
+				045C17781E642B1100D20352 /* Attachment.swift */,
+				0417B3931E719DA100FD3067 /* MapCoords.swift */,
+				0417B39B1E780B0900FD3067 /* Chat.swift */,
+				045DD0651E7ADB0800CB884D /* Survey.swift */,
+				045DD06D1E7AE70D00CB884D /* Answer.swift */,
+				045DD06F1E7AE73400CB884D /* Question.swift */,
+				045DD0711E7AE79200CB884D /* QuestionResult.swift */,
+				045D15C91E7ED45100D9F828 /* Gallery.swift */,
+				045D90461E801BD100ECACE1 /* Comment.swift */,
+				042214991E8BDE9D00D0AC91 /* Agenda.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		04CEFC301E5EF65B0017A0E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04CEFBFF1E5EF4E30017A0E6 /* LoginController.swift */,
+				0434014C1E5F325200BECDD9 /* SplashController.swift */,
+				0434014E1E5F34BF00BECDD9 /* EventsController.swift */,
+				040D78B61E6594D30051167F /* MenuController.swift */,
+				04665CE51E66C52F0046F905 /* EventController.swift */,
+				0417B3741E6D8C1E00FD3067 /* AttendeesController.swift */,
+				0417B37C1E6EDD0900FD3067 /* SpeakersController.swift */,
+				0417B3841E700B2A00FD3067 /* AttachmentsController.swift */,
+				0417B3881E716D5800FD3067 /* DisplayAttachmentController.swift */,
+				0417B38A1E7171D300FD3067 /* ProfileController.swift */,
+				0417B3911E7197C200FD3067 /* LocationViewController.swift */,
+				0417B3951E77F6FE00FD3067 /* ChatController.swift */,
+				045DD0691E7ADFD700CB884D /* SurveysController.swift */,
+				045DD0771E7AECEC00CB884D /* SurveyDetailsController.swift */,
+				045D15C31E7EA76300D9F828 /* GalleryController.swift */,
+				045D90421E80015300ECACE1 /* PostController.swift */,
+				049D71971EA62EF200B8EDD9 /* AgendaController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		04CEFC331E5EF6790017A0E6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				045C176E1E6334B500D20352 /* DBHelper.swift */,
+				0498F0D71E62D9D600CC715A /* DataSingleton.swift */,
+				040777AD1E62F71900D1B2EC /* StringHelper.swift */,
+				045C177A1E64392300D20352 /* TransitionsHelper.swift */,
+				04665CE31E65B4780046F905 /* ViewsHelper.swift */,
+				0417B39D1E782A8700FD3067 /* ArraysHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		245AB2B2046B8EC780FC1409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A4BD6A4D59E70D371889B26 /* Pods-Merck Events.debug.xcconfig */,
+				EB1191B01C44FFCC1645ABA1 /* Pods-Merck Events.release.xcconfig */,
+				9FEC2EBC23F39CD3331D0946 /* Pods-Merck EventsTests.debug.xcconfig */,
+				CB6DC29091412E9C458F5976 /* Pods-Merck EventsTests.release.xcconfig */,
+				78D49231000E5904133811D1 /* Pods-Merck EventsUITests.debug.xcconfig */,
+				3C4C059573F5F94839B087AC /* Pods-Merck EventsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5C2C8D049196B5634BCA340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EF03FA31E4E2DAFBE070613 /* Pods_Merck_Events.framework */,
+				6E6C868A3BAA3BD41BDAF478 /* Pods_Merck_EventsTests.framework */,
+				ED913A9932FDCB95C11CD6C4 /* Pods_Merck_EventsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CEFBF91E5EF4E20017A0E6 /* Merck Events */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEFC251E5EF4E40017A0E6 /* Build configuration list for PBXNativeTarget "Merck Events" */;
+			buildPhases = (
+				8879702C1EE4D009F79C6098 /* [CP] Check Pods Manifest.lock */,
+				04CEFBF61E5EF4E20017A0E6 /* Sources */,
+				04CEFBF71E5EF4E20017A0E6 /* Frameworks */,
+				04CEFBF81E5EF4E20017A0E6 /* Resources */,
+				03DAFA57DA6C8C7FE1190A91 /* [CP] Embed Pods Frameworks */,
+				FAFE1A99B96BE297569F8D2A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Merck Events";
+			productName = "Merck Events";
+			productReference = 04CEFBFA1E5EF4E30017A0E6 /* Merck Events.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CEFC101E5EF4E30017A0E6 /* Merck EventsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEFC281E5EF4E40017A0E6 /* Build configuration list for PBXNativeTarget "Merck EventsTests" */;
+			buildPhases = (
+				0378650551C88AB4BB8B04EA /* [CP] Check Pods Manifest.lock */,
+				04CEFC0D1E5EF4E30017A0E6 /* Sources */,
+				04CEFC0E1E5EF4E30017A0E6 /* Frameworks */,
+				04CEFC0F1E5EF4E30017A0E6 /* Resources */,
+				9CDFC36BBB07DD224BED6576 /* [CP] Embed Pods Frameworks */,
+				92E151B72180174B17D6F3E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CEFC131E5EF4E30017A0E6 /* PBXTargetDependency */,
+			);
+			name = "Merck EventsTests";
+			productName = "Merck EventsTests";
+			productReference = 04CEFC111E5EF4E30017A0E6 /* Merck EventsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CEFC1B1E5EF4E30017A0E6 /* Merck EventsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEFC2B1E5EF4E40017A0E6 /* Build configuration list for PBXNativeTarget "Merck EventsUITests" */;
+			buildPhases = (
+				0D9EFC8EADE4C06F0455DAF7 /* [CP] Check Pods Manifest.lock */,
+				04CEFC181E5EF4E30017A0E6 /* Sources */,
+				04CEFC191E5EF4E30017A0E6 /* Frameworks */,
+				04CEFC1A1E5EF4E30017A0E6 /* Resources */,
+				46251C98E98E260AEF383988 /* [CP] Embed Pods Frameworks */,
+				BF2DF172C92759B2852F258A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CEFC1E1E5EF4E30017A0E6 /* PBXTargetDependency */,
+			);
+			name = "Merck EventsUITests";
+			productName = "Merck EventsUITests";
+			productReference = 04CEFC1C1E5EF4E30017A0E6 /* Merck EventsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CEFBF21E5EF4E10017A0E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sict;
+				TargetAttributes = {
+					04CEFBF91E5EF4E20017A0E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8W5PQ7X3HL;
+						ProvisioningStyle = Automatic;
+					};
+					04CEFC101E5EF4E30017A0E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04CEFBF91E5EF4E20017A0E6;
+					};
+					04CEFC1B1E5EF4E30017A0E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04CEFBF91E5EF4E20017A0E6;
+					};
+				};
+			};
+			buildConfigurationList = 04CEFBF51E5EF4E20017A0E6 /* Build configuration list for PBXProject "Merck Events" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CEFBF11E5EF4E10017A0E6;
+			productRefGroup = 04CEFBFB1E5EF4E30017A0E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CEFBF91E5EF4E20017A0E6 /* Merck Events */,
+				04CEFC101E5EF4E30017A0E6 /* Merck EventsTests */,
+				04CEFC1B1E5EF4E30017A0E6 /* Merck EventsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CEFBF81E5EF4E20017A0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04665CE91E66DC790046F905 /* Merck.ttf in Resources */,
+				04CEFC0B1E5EF4E30017A0E6 /* LaunchScreen.storyboard in Resources */,
+				04CEFC081E5EF4E30017A0E6 /* Assets.xcassets in Resources */,
+				04CEFC031E5EF4E30017A0E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEFC0F1E5EF4E30017A0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEFC1A1E5EF4E30017A0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0378650551C88AB4BB8B04EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		03DAFA57DA6C8C7FE1190A91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Merck Events/Pods-Merck Events-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D9EFC8EADE4C06F0455DAF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46251C98E98E260AEF383988 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Merck EventsUITests/Pods-Merck EventsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8879702C1EE4D009F79C6098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92E151B72180174B17D6F3E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Merck EventsTests/Pods-Merck EventsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CDFC36BBB07DD224BED6576 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Merck EventsTests/Pods-Merck EventsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2DF172C92759B2852F258A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Merck EventsUITests/Pods-Merck EventsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAFE1A99B96BE297569F8D2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Merck Events/Pods-Merck Events-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CEFBF61E5EF4E20017A0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0417B3891E716D5800FD3067 /* DisplayAttachmentController.swift in Sources */,
+				045DD0681E7ADC3A00CB884D /* SurveyStore.swift in Sources */,
+				045DD0781E7AECEC00CB884D /* SurveyDetailsController.swift in Sources */,
+				0434014B1E5F2B5800BECDD9 /* UserStore.swift in Sources */,
+				0417B38E1E71964A00FD3067 /* GoogleDataProvider.swift in Sources */,
+				045D904C1E84179B00ECACE1 /* TableViewExtension.swift in Sources */,
+				045DD0721E7AE79200CB884D /* QuestionResult.swift in Sources */,
+				043401431E5F125000BECDD9 /* Constants.swift in Sources */,
+				0417B3871E7028DC00FD3067 /* AttachmentStore.swift in Sources */,
+				0417B37B1E6ED9FC00FD3067 /* SpeakerMapper.swift in Sources */,
+				0422149C1E8BE00B00D0AC91 /* AgendaMapper.swift in Sources */,
+				045DD0741E7AE83900CB884D /* AnswerMapper.swift in Sources */,
+				045DD06E1E7AE70D00CB884D /* Answer.swift in Sources */,
+				0417B3811E70010400FD3067 /* AttachmentMapper.swift in Sources */,
+				045C17711E642A0400D20352 /* EventStore.swift in Sources */,
+				0434014F1E5F34BF00BECDD9 /* EventsController.swift in Sources */,
+				045C17881E6575B900D20352 /* SideMenuHandlerController.swift in Sources */,
+				045C17791E642B1100D20352 /* Attachment.swift in Sources */,
+				0417B3981E77F73900FD3067 /* ChatCell.swift in Sources */,
+				045C176F1E6334B500D20352 /* DBHelper.swift in Sources */,
+				045C17841E64739C00D20352 /* UserMapper.swift in Sources */,
+				045D15CA1E7ED45100D9F828 /* Gallery.swift in Sources */,
+				045C17751E642AAB00D20352 /* Attendee.swift in Sources */,
+				045DD0701E7AE73400CB884D /* Question.swift in Sources */,
+				04CEFC351E5EF6E60017A0E6 /* User.swift in Sources */,
+				045D90491E827C2E00ECACE1 /* QuestionResultMapper.swift in Sources */,
+				045DD0641E79943F00CB884D /* SurveysMapper.swift in Sources */,
+				04CEFC001E5EF4E30017A0E6 /* LoginController.swift in Sources */,
+				0417B39C1E780B0900FD3067 /* Chat.swift in Sources */,
+				049D71981EA62EF200B8EDD9 /* AgendaController.swift in Sources */,
+				0417B37D1E6EDD0900FD3067 /* SpeakersController.swift in Sources */,
+				0417B3771E6D8D5000FD3067 /* AttendeeCell.swift in Sources */,
+				045DD0661E7ADB0800CB884D /* Survey.swift in Sources */,
+				0417B3941E719DA100FD3067 /* MapCoords.swift in Sources */,
+				045DD0761E7AE88E00CB884D /* QuestionMapper.swift in Sources */,
+				045D15CC1E7ED62400D9F828 /* GalleryMapper.swift in Sources */,
+				049D719A1EA630A200B8EDD9 /* AgendaCell.swift in Sources */,
+				045D90431E80015300ECACE1 /* PostController.swift in Sources */,
+				0417B39A1E78048400FD3067 /* ChatStore.swift in Sources */,
+				0417B3851E700B2A00FD3067 /* AttachmentsController.swift in Sources */,
+				0417B3751E6D8C1E00FD3067 /* AttendeesController.swift in Sources */,
+				0417B37F1E6EE02800FD3067 /* SpeakerCell.swift in Sources */,
+				04CEFC061E5EF4E30017A0E6 /* Merck_Events.xcdatamodeld in Sources */,
+				0417B3901E71966000FD3067 /* MarkerInfoView.swift in Sources */,
+				045C17811E64422E00D20352 /* EventCell.swift in Sources */,
+				0498F0D81E62D9D600CC715A /* DataSingleton.swift in Sources */,
+				0417B38B1E7171D300FD3067 /* ProfileController.swift in Sources */,
+				045DD06C1E7ADFED00CB884D /* SurveyCell.swift in Sources */,
+				04665CE61E66C52F0046F905 /* EventController.swift in Sources */,
+				0434014D1E5F325200BECDD9 /* SplashController.swift in Sources */,
+				040777AE1E62F71900D1B2EC /* StringHelper.swift in Sources */,
+				040D78B71E6594D30051167F /* MenuController.swift in Sources */,
+				0417B3831E700A9900FD3067 /* AttachmentCell.swift in Sources */,
+				045D15C61E7EC69B00D9F828 /* GalleryCell.swift in Sources */,
+				0422149A1E8BDE9D00D0AC91 /* Agenda.swift in Sources */,
+				045D15C81E7ED3B100D9F828 /* GalleryStore.swift in Sources */,
+				045C17771E642AD300D20352 /* Speaker.swift in Sources */,
+				045DD0621E7952AF00CB884D /* ChatMapper.swift in Sources */,
+				04CEFBFE1E5EF4E30017A0E6 /* AppDelegate.swift in Sources */,
+				045DD06A1E7ADFD700CB884D /* SurveysController.swift in Sources */,
+				0417B3921E7197C200FD3067 /* LocationViewController.swift in Sources */,
+				0417B3961E77F6FE00FD3067 /* ChatController.swift in Sources */,
+				045C177B1E64392300D20352 /* TransitionsHelper.swift in Sources */,
+				045C17731E642A2400D20352 /* Event.swift in Sources */,
+				04665CE41E65B4780046F905 /* ViewsHelper.swift in Sources */,
+				045C17861E64779B00D20352 /* EventMapper.swift in Sources */,
+				045D90471E801BD100ECACE1 /* Comment.swift in Sources */,
+				0417B39E1E782A8700FD3067 /* ArraysHelper.swift in Sources */,
+				045D15C41E7EA76300D9F828 /* GalleryController.swift in Sources */,
+				0417B3791E6EBD3F00FD3067 /* AttendeeMapper.swift in Sources */,
+				045D90451E80071E00ECACE1 /* CommentCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEFC0D1E5EF4E30017A0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEFC161E5EF4E30017A0E6 /* Merck_EventsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEFC181E5EF4E30017A0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEFC211E5EF4E40017A0E6 /* Merck_EventsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CEFC131E5EF4E30017A0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CEFBF91E5EF4E20017A0E6 /* Merck Events */;
+			targetProxy = 04CEFC121E5EF4E30017A0E6 /* PBXContainerItemProxy */;
+		};
+		04CEFC1E1E5EF4E30017A0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CEFBF91E5EF4E20017A0E6 /* Merck Events */;
+			targetProxy = 04CEFC1D1E5EF4E30017A0E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CEFC011E5EF4E30017A0E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CEFC021E5EF4E30017A0E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CEFC091E5EF4E30017A0E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CEFC0A1E5EF4E30017A0E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CEFC231E5EF4E40017A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CEFC241E5EF4E40017A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CEFC261E5EF4E40017A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4BD6A4D59E70D371889B26 /* Pods-Merck Events.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W5PQ7X3HL;
+				INFOPLIST_FILE = "Merck Events/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.merck.events;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04CEFC271E5EF4E40017A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB1191B01C44FFCC1645ABA1 /* Pods-Merck Events.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W5PQ7X3HL;
+				INFOPLIST_FILE = "Merck Events/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.merck.events;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04CEFC291E5EF4E40017A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEC2EBC23F39CD3331D0946 /* Pods-Merck EventsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Merck EventsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Merck-EventsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merck Events.app/Merck Events";
+			};
+			name = Debug;
+		};
+		04CEFC2A1E5EF4E40017A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6DC29091412E9C458F5976 /* Pods-Merck EventsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Merck EventsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Merck-EventsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merck Events.app/Merck Events";
+			};
+			name = Release;
+		};
+		04CEFC2C1E5EF4E40017A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D49231000E5904133811D1 /* Pods-Merck EventsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Merck EventsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Merck-EventsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Merck Events";
+			};
+			name = Debug;
+		};
+		04CEFC2D1E5EF4E40017A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4C059573F5F94839B087AC /* Pods-Merck EventsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Merck EventsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Merck-EventsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Merck Events";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CEFBF51E5EF4E20017A0E6 /* Build configuration list for PBXProject "Merck Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEFC231E5EF4E40017A0E6 /* Debug */,
+				04CEFC241E5EF4E40017A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEFC251E5EF4E40017A0E6 /* Build configuration list for PBXNativeTarget "Merck Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEFC261E5EF4E40017A0E6 /* Debug */,
+				04CEFC271E5EF4E40017A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEFC281E5EF4E40017A0E6 /* Build configuration list for PBXNativeTarget "Merck EventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEFC291E5EF4E40017A0E6 /* Debug */,
+				04CEFC2A1E5EF4E40017A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEFC2B1E5EF4E40017A0E6 /* Build configuration list for PBXNativeTarget "Merck EventsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEFC2C1E5EF4E40017A0E6 /* Debug */,
+				04CEFC2D1E5EF4E40017A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04CEFC041E5EF4E30017A0E6 /* Merck_Events.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04CEFC051E5EF4E30017A0E6 /* Merck_Events.xcdatamodel */,
+			);
+			currentVersion = 04CEFC051E5EF4E30017A0E6 /* Merck_Events.xcdatamodel */;
+			path = Merck_Events.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04CEFBF21E5EF4E10017A0E6 /* Project object */;
+}
